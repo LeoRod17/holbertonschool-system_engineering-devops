@@ -1,0 +1,31 @@
+Link to diagram: 
+
+Teoric:
+Server:
+A server is a terminal it can be hardware or software and the terminal is normally in a data center and it is used for providing
+services or functionalities to the user or clients this is called OS or operating system.
+
+Web server: 
+A web server is a software that delivers web pages in a web server there can have multiple web pages and webpages can have multiple web servers.
+
+Application server:
+This host web apps making it so people can use them without having to have anything install this exposes business logic to the clients, which generates dynamic content.
+
+Database:
+A database is a collection of information that is stored and organized so that it can be easily accessed, updated and managed, so in a program the database stores all the information of the clients and the apps.
+
+Domain Name System"(DNS):
+This translates the record of the domain(a webpage real name) into an ip so that the client can access the page in this particular diagram
+"www.foobar.com" is a record of the domain and it is used to get the ip of the webpage, record it means that is a link or something like that which is saved in the database.
+
+Single point of failure (SPOF):
+this means if a single part of a proyect fails all the proyect will fail for example the conection with the server is cut you can`t use the programs in this we have spof because nothing is redundant and if something fails we do not have a back up or anything like that.
+
+Downtime updates:
+When you are updating an app (changing code or something) the most probable case is that the up will be down and when you finish you will have to restart the server which in somecases it can be a waste of money.
+
+Traffic:
+The system will not be able to function if there are to many people tring to enter at the same time this depends of the webpage and how it was built one example is the page of a bank for the great security that they have and the amount of people that use it every time plus that the servers must be active all the time without rest it cause it to be slow most of the time or unable to access it, in short if the number of people is too much in the webpage you will unable to enter the webpage.
+
+Transmission Control Protocol/Internet Protocol(TCP/IP):
+Is a suite of communication protocols used to interconnect network devices on the internet and the server is using this to communicate with the network
