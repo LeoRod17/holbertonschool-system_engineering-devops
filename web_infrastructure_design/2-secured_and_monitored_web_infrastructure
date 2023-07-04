@@ -1,0 +1,10 @@
+Link:
+Teoric:
+firewall:
+A firewall is a network security device that monitors incoming and outgoing network traffic and 
+decides whether to allow or block specific traffic based on a defined set of security rules.
+
+Secure Sockets Layer(SSL):
+SSL (Secure Sockets Layer) and its successor, TLS (Transport Layer Security), are protocols for 
+establishing authenticated and encrypted links between networked computers. Although the SSL protocol was
+deprecated with the release of TLS 1.0 in 1999, it is still common to refer to these

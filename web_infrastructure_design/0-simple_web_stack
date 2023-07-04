@@ -1,9 +1,8 @@
-Link to diagram: 
+Link to diagram: https://github.com/LeoRod17/holbertonschool-system_engineering-devops/blob/main/web_infrastructure_design/Diagramas/0.%20Simple%20web%20stack.drawio.png
 
 Teoric:
 Server:
-A server is a terminal it can be hardware or software and the terminal is normally in a data center and it is used for providing
-services or functionalities to the user or clients this is called OS or operating system.
+A server is a terminal it can be hardware or software and the terminal is normally in a data center and it is used for providing services or functionalities to the user or clients this is called OS or operating system.
 
 Web server: 
 A web server is a software that delivers web pages in a web server there can have multiple web pages and webpages can have multiple web servers.

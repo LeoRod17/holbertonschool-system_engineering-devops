@@ -1,0 +1,11 @@
+Link:https://github.com/LeoRod17/holbertonschool-system_engineering-devops/blob/main/web_infrastructure_design/Diagramas/1-web%20stack.drawio.png
+
+Teorico:
+Load-balancer:
+Is a device that acts as a reverse proxy and distributes network or application traffic across a number of servers. Load balancers are used to increase capacity (concurrent users) and reliability of applications.
+The load balancer is configured to have an active-active or active-passive setup (their choice)
+The load balancer is still a single point of failure
+
+Master Database & Secondary Database:
+The MySQL Master-Replica cluster used replication to keep data synchronized
+The Master database node can accept reads/writes while the Replica can only accept reads
