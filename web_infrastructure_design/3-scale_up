@@ -1,0 +1,4 @@
+Link: https://github.com/LeoRod17/holbertonschool-system_engineering-devops/blob/main/web_infrastructure_design/Diagramas/3-scaleup.drawio.png
+Teoric:
+Load-balancer:
+The load balancer is configured as a cluster so that if one fails, the other takes over

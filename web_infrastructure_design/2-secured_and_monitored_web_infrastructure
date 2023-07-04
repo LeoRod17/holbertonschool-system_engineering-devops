@@ -1,4 +1,4 @@
-Link:
+Link:https://github.com/LeoRod17/holbertonschool-system_engineering-devops/blob/main/web_infrastructure_design/Diagramas/2-secure%20and%20monitored.drawio.png
 Teoric:
 firewall:
 A firewall is a network security device that monitors incoming and outgoing network traffic and 
@@ -7,4 +7,24 @@ decides whether to allow or block specific traffic based on a defined set of sec
 Secure Sockets Layer(SSL):
 SSL (Secure Sockets Layer) and its successor, TLS (Transport Layer Security), are protocols for 
 establishing authenticated and encrypted links between networked computers. Although the SSL protocol was
-deprecated with the release of TLS 1.0 in 1999, it is still common to refer to these
+deprecated with the release of TLS 1.0 in 1999, it is still common to refer to these.
+Terminating SSL at the load balancer level is an issue because the traffic between the load balancer and the web servers is unencrypted
+
+Hypertext Transfer Protocol Secure (HTTPS)
+Is an extension of the Hypertext Transfer Protocol (HTTP). It uses encryption for secure communication over a computer network
+HTTPS is setup so that if someone intercepts the traffic, it cannot be read
+
+Monitor:
+Monitoring can be used to check if something is broken or slow in this exercise we have 2 users who are monitors
+The monitoring setup is composed of a client collecting data and sending it to the monitoring system
+monitoring should collect web server data and have an alert triggered if QPS is getting out of control
+
+Database:
+Having only one MySQL server capable of accepting writes is an issue because if the master goes down, the application cannot write to the database anymore
+
+Servers:
+Having servers with all the same components (database, web server and application server) might be a problem because their consumption will not grow the same way between each of them (we might want to have more database servers than application servers for instance).
+Having servers with all the same components (database, web server and application server) might be a problem because when there is maintenance performed on a server for a specific component, it will affect other components that are on it
+
+Load-balancer:
+Load-balancer is a SPOF
